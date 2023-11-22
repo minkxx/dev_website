@@ -64,6 +64,7 @@
 
 .app_div img{
     height: 80px;
+    user-select: none;
 }
 
 .app_div .apps:hover{
