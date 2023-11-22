@@ -1,0 +1,45 @@
+@media screen and (max-width:450px){
+    .wrapper{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .wrapper{
+        width: 260px;
+    }
+    .app_div{
+        grid-template-columns: 80px 80px 80px;
+    }
+    .app_div .apps{
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .app_div img{
+        height: 60px;
+    }
+}
+@media screen and (max-width:308px){
+    .wrapper{
+        width: 230px;
+    }
+    .bio_div p{
+        text-align: center;
+    }
+    .app_div{
+        grid-template-columns: 70px 70px 70px;
+    }
+    .app_div .apps{
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .app_div img{
+        height: 60px;
+    }
+}
