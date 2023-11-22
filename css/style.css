@@ -43,7 +43,6 @@
 }
 
 .app_div{
-    /* background-color: seagreen; */
     display: grid;
     grid-template-columns: 100px 100px 100px;
     height : 200px;
@@ -54,7 +53,6 @@
 }
 
 .app_div .apps{
-    /* background-color: aquamarine; */
     height: 80px;
     width: 80px;
     border: 1px solid gray;
@@ -70,7 +68,6 @@
 
 .app_div .apps:hover{
     border: 1px solid wheat;
-    /* background-color: rgba(245, 222, 179, 0.349); */
 }
 
 .app_div img:hover{
